@@ -1,16 +1,16 @@
 # SiriusSyncr
 ## Technologies:
 * Data persistence:
-	** Microsoft SQL Server 2014
-	** Entity Framework 6
+	* Microsoft SQL Server 2014
+	* Entity Framework 6
 * Server-side:
-	** ASP.NET MVC 5
-	** ASP.NET SignalR
+	* ASP.NET MVC 5
+	* ASP.NET SignalR
 * Client-side:
-	** ASP.NET MVC 5
-	** Bootstrap
-	** (other front-end frameworks, such as icon packs, as needed)
-	** ? TypeScript
+	* ASP.NET MVC 5
+	* Bootstrap
+	* (other front-end frameworks, such as icon packs, as needed)
+	* ? TypeScript
 
 ## Features:
 * Real-time syncronization of audio / video between two or more users
