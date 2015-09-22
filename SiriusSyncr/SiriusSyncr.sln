@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiriusSyncr.App", "SiriusSyncr.App\SiriusSyncr.App.csproj", "{01B9F3A7-749F-4D70-A975-E368D6869F61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiriusSyncr.Tests", "SiriusSyncr.Tests\SiriusSyncr.Tests.csproj", "{2BDDBCFD-8DA7-4E33-B689-1841CFFCD318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiriusSyncr.Models", "SiriusSyncr.Models\SiriusSyncr.Models.csproj", "{9B71115F-C6D6-448E-820B-CA27E3BCCEB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiriusSyncr.Data", "SiriusSyncr.Data\SiriusSyncr.Data.csproj", "{FB2F9064-4146-4775-93CB-0321839F14AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01B9F3A7-749F-4D70-A975-E368D6869F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B9F3A7-749F-4D70-A975-E368D6869F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B9F3A7-749F-4D70-A975-E368D6869F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B9F3A7-749F-4D70-A975-E368D6869F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BDDBCFD-8DA7-4E33-B689-1841CFFCD318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDDBCFD-8DA7-4E33-B689-1841CFFCD318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDDBCFD-8DA7-4E33-B689-1841CFFCD318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDDBCFD-8DA7-4E33-B689-1841CFFCD318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B71115F-C6D6-448E-820B-CA27E3BCCEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B71115F-C6D6-448E-820B-CA27E3BCCEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B71115F-C6D6-448E-820B-CA27E3BCCEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B71115F-C6D6-448E-820B-CA27E3BCCEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB2F9064-4146-4775-93CB-0321839F14AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2F9064-4146-4775-93CB-0321839F14AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2F9064-4146-4775-93CB-0321839F14AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2F9064-4146-4775-93CB-0321839F14AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
