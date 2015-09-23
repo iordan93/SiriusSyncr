@@ -20,7 +20,7 @@ namespace SiriusSyncr.App
             app.CreatePerOwinContext(ApplicationDbContext.Create);
             app.CreatePerOwinContext<UserManager>(UserManager.Create);
             app.CreatePerOwinContext<ApplicationSignInManager>(ApplicationSignInManager.Create);
-
+                
             // Enable the application to use a cookie to store information for the signed in user
             // and to use a cookie to temporarily store information about a user logging in with a third party login provider
             // Configure the sign in cookie
@@ -48,23 +48,23 @@ namespace SiriusSyncr.App
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
             // Uncomment the following lines to enable logging in with third party login providers
-            //app.UseMicrosoftAccountAuthentication(
-            //    clientId: "",
-            //    clientSecret: "");
+            app.UseMicrosoftAccountAuthentication(
+                clientId: AppKeys.MicrosoftClientId,
+                clientSecret: AppKeys.MicrosoftClientSecret);
 
-            //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+            app.UseTwitterAuthentication(
+               consumerKey: AppKeys.TwitterConsumerKey,
+               consumerSecret: AppKeys.TwitterConsumerSecret);
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: AppKeys.FacebookAppId,
+               appSecret: AppKeys.FacebookAppSecret);
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = AppKeys.GoogleClientId,
+                ClientSecret = AppKeys.GoogleClientSecret
+            });
         }
     }
 }
