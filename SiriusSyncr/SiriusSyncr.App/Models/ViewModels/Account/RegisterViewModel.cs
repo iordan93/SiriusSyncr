@@ -1,4 +1,4 @@
-﻿namespace SiriusSyncr.App.Models.ViewModels
+﻿namespace SiriusSyncr.App.Models.ViewModels.Account
 {
     using System.ComponentModel.DataAnnotations;
 
