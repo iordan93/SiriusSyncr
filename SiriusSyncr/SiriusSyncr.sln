@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiriusSyncr.Models", "Siriu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiriusSyncr.Data", "SiriusSyncr.Data\SiriusSyncr.Data.csproj", "{FB2F9064-4146-4775-93CB-0321839F14AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiriusSyncr.Sandbox", "SiriusSyncr.Sandbox\SiriusSyncr.Sandbox.csproj", "{950872CC-31B3-48EA-B4F0-E50F35773F5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FB2F9064-4146-4775-93CB-0321839F14AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB2F9064-4146-4775-93CB-0321839F14AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB2F9064-4146-4775-93CB-0321839F14AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950872CC-31B3-48EA-B4F0-E50F35773F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950872CC-31B3-48EA-B4F0-E50F35773F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950872CC-31B3-48EA-B4F0-E50F35773F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950872CC-31B3-48EA-B4F0-E50F35773F5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
