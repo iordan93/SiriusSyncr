@@ -21,3 +21,7 @@
 * Supporting different content providers: YouTube, Vimeo, Dailymotion, Vbox7, Spotify, SoundCloud, etc.
 * ? Chat, system notifications
 * ? Multiple playlists per room (see: watch2gether)
+
+## Architecture:
+* Rooms provide peer-to-peer access to their videos (i. e., everyone can start/pause, etc.)
+* In the future, rooms will provide both peer-to-peer and presenter-clients access (i. e., only the person who has created the room may control what's playing)
