@@ -23,6 +23,7 @@
 * ? Multiple playlists per room (see: watch2gether)
 * ? Search for videos directly in the system
 * ? Watch history - in case of more than one playlist per room, it is useful to show what are the latest synced videos and help choose some of them to watch again
+* ? Statistics (top videos, frequently played together, etc.)
 
 ## Architecture:
 * Rooms provide peer-to-peer access to their videos (i. e., everyone can start/pause, etc.)
